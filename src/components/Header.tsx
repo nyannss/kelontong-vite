@@ -1,7 +1,7 @@
 function Header() {
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 sticky z-10 global-px">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
